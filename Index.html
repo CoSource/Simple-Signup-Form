@@ -4,7 +4,7 @@
     <title>Simple Sign Up form</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 </head>
-<body ng-app="app">
+<body">
     <div class="container">
         <h1 class="text-center">Acme Inc. </h1>
         <div class="row">
@@ -13,9 +13,12 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">Opt-In</div>
                     <div class="panel-body">  
-                        <cs-signup-form> 
+                        <cs-signup-form>
+                            My Image
                             <div class="brand-logo"></div>
+
                         </cs-signup-form>
+
                     </div>
                 </div>
             </div>
@@ -31,6 +34,12 @@
             </div>
         </div>
     </div>
+
+    <!-- Include Jasmine Files-->
+    <script type="text/javascript" src="lib/jasmine-2.0.0/jasmine.js"></script>
+    <script type="text/javascript" src="/lib/jasmine-2.0.0/jasmine-html.js"></script>
+    <script type="text/javascript" src="/lib/jasmine-2.0.0/boot.js"></script>
+
 
     <!--External Libaries-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
