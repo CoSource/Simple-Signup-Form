@@ -1,7 +1,7 @@
 ﻿angular.module('signup', [])
     .directive('csSignupForm', function () {
         return {
-            templateUrl: 'app/signon/registerTemplate.html',
+            templateUrl: 'registerTemplate.html',
             restrict: 'AE',
             replace: true,
             transclude: true
